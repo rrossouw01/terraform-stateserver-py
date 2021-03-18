@@ -1,5 +1,7 @@
 # terraform-stateserver-py
 
+setup document maintained in 20210316-terraform-stateserver-python.docx
+
 terraform config
 ---
 ````bash
@@ -15,3 +17,12 @@ terraform {
 }
 ````
 
+run script
+---
+```bash
+$ more run.sh 
+#!/bin/bash
+source venv/bin/activate
+python3 stateserver.py
+
+```
