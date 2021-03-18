@@ -23,6 +23,6 @@ run script
 $ more run.sh 
 #!/bin/bash
 source venv/bin/activate
-python3 stateserver.py
+python3 server.py
 
 ```
